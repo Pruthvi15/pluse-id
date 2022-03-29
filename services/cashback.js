@@ -2,7 +2,6 @@ import data from '../data';
 
 const getCashbacks = () => {
   const result = [];
-  console.log(data);
   data.transaction.forEach(transaction => {
     let maxAmount = 0;
     data.ruleset.forEach(ruleset => {
